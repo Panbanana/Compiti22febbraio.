@@ -7,7 +7,12 @@
 
 
 #define BLOCK_DIM 1024
-
+/*
+	!\fn main
+	\brief copia dati su file da pipe
+	\var file
+	\brief file contente i dati da scrivere nella pipe 
+*/
 int main(int argc, char* argv[])
 {
  FILE* file;
