@@ -24,6 +24,13 @@ int spawn(char program[], char* argument[])
  abort();
 }
 
+/*
+	!\fn main
+	\brief copia dati su file da pipe
+	\var file
+	\brief file contente i dati da scrivere nella pipe 
+*/
+
 int main(int argc, char* argv[])
 {
  FILE* file;
